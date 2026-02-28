@@ -1,7 +1,17 @@
 /* Defaults */
-main {
-*, a, button, main {cursor:url('http://www.veltron.net/images/cursor.png'), auto!important;}
+body {
+  background: url("http://www.veltron.net/images/wallpaper.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #698aff;
+  font-family: "Roboto", arial, serif;
+  cursor: url("http://www.veltron.net/images/cursor.png"), auto;
+  font-size: 14px;
+  height: 100vh;
 }
+
 :root {
     --genwidth: 850px ;
     --navwidth: 175px ;
