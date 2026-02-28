@@ -1,8 +1,6 @@
-p { text-align: center ;}
-
 /* Defaults */
-body {
-*, a, button, body {cursor:url('http://www.veltron.net/images/cursor.png'), auto!important;}
+main {
+*, a, button, main {cursor:url('http://www.veltron.net/images/cursor.png'), auto!important;}
 }
 :root {
     --genwidth: 850px ;
