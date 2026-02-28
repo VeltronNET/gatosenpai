@@ -79,7 +79,7 @@ footer a:hover {
   color: #fff; /* White text */
   font-size: 1.5rem; /* Larger font size for better visibility */
   padding: 15px 30px; /* More padding for bigger buttons */
-  border-radius: 10px; /* Rounded corners */
+  border-radius: 12px; /* Rounded corners */
   text-transform: uppercase;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.3s ease, border 0.3s, box-shadow 0.3s ease; /* Added box-shadow transition */
