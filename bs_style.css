@@ -1,3 +1,4 @@
+
 * {
   cursor: url("http://www.veltron.net/images/cursor.png"), auto;
 }
@@ -24,32 +25,30 @@ html, body {
     font-family: sans-serif;
 }
 
-
-
 main, nav, footer {
-    box-shadow: 5px 5px 5px 5px rgba( 0, 0, 0, 0.3) ;
+    box-shadow: 5px 5px 5px 5px rgba( 0, 0, 0, 0.3);
 }
 
 main {
-    margin: auto ;
-    color: var(--fg) ;
-    background: var(--bg) ;
-    border: dashed 1px var(--bordercolor) ;
-    padding: 1em ;
-    border-radius: 20px ;
+    margin: auto;
+    color: var(--fg);
+    background: var(--bg);
+    border: dashed 1px var(--bordercolor);
+    padding: 1em;
+    border-radius: 20px;
 }
 
 header h1 {
-    font-size: xxx-large ;
-    max-width: var(--genwidth) ;
-    margin-left: auto ;
-    margin-right: auto ;
+    font-size: xxx-large;
+    max-width: var(--genwidth);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .lw, p img, li img, h1 img, h2 img, h3 img, h4 img, dt img, td img {
     max-height: 1em;
     max-width: 1em;
-    vertical-align: middle ;
+    vertical-align: middle;
 }
 
 sup {
@@ -58,37 +57,37 @@ sup {
 }
 
 nav {
-    font-variant: small-caps ;
+    font-variant: small-caps;
 }
 
-nav,footer {
-    text-align: center ;
-    clear: both ;
-    background: var(--altbg) ;
-    border-radius: 20px ;
-    margin: auto ;
-    border: dashed 1px var(--bordercolor) ;
-    max-width: var(--genwidth) ;
+nav, footer {
+    text-align: center;
+    clear: both;
+    background: var(--altbg);
+    border-radius: 20px;
+    margin: auto;
+    border: dashed 1px var(--bordercolor);
+    max-width: var(--genwidth);
 }
 
 footer {
-    color: var(--altfg) ;
-    margin-top: 1em ;
-    font-size: small ;
-    overflow-wrap: break-word ;
+    color: var(--altfg);
+    margin-top: 1em;
+    font-size: small;
+    overflow-wrap: break-word;
 }
 
 nav {
-    max-width: var(--genwidth) ;
+    max-width: var(--genwidth);
 }
 
-nav li,footer li {
-    display: inline-block ;
-    list-style: none ;
-    background: var(--bg) ;
-    border-radius: 10px ;
-    padding: .5em ;
-    max-width: 7em ;
+nav li, footer li {
+    display: inline-block;
+    list-style: none;
+    background: var(--bg);
+    border-radius: 10px;
+    padding: .5em;
+    max-width: 7em;
 }
 
 nav ul, footer ul, #taglist {
@@ -96,157 +95,169 @@ nav ul, footer ul, #taglist {
     margin: .5em;
 }
 
-nav a:hover li, footer a:hover li,#tagcloud a:hover li {
-    background: steelblue ;
-    color: black ;
-    box-shadow: 2px 2px cyan ;
+nav a:hover li, footer a:hover li, #tagcloud a:hover li {
+    background: steelblue;
+    color: black;
+    box-shadow: 2px 2px cyan;
 }
 
-strong { color: var(--fgemph) ; }
+strong {
+    color: var(--fgemph);
+}
 
-a strong { color: var(--limish) ; }
+a strong {
+    color: var(--limish);
+}
 
-details { padding-left: 20px ; text-decoration: underline; }
+details {
+    padding-left: 20px;
+    text-decoration: underline;
+}
 
 pre {
-    background: #222 ;
-    border: 1px solid var(--limish) ;
-    border-radius: 20px ;
-    padding: 1em ;
-    margin: 1em ;
+    background: #222;
+    border: 1px solid var(--limish);
+    border-radius: 20px;
+    padding: 1em;
+    margin: 1em;
     white-space: pre-wrap;
 }
 
 code {
-    background: #222 ;
-    color: var(--limish) ;
-    border-radius: 5px ;
-    overflow-wrap: break-word ;
+    background: #222;
+    color: var(--limish);
+    border-radius: 5px;
+    overflow-wrap: break-word;
 }
 
 .cryptocontainer {
-    display: flex ;
-    flex-wrap: wrap ;
-    justify-content: center ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
 .cryptoinfo {
-    max-width: 350px ;
-    text-align: center ;
-    padding-left: 10px ;
-    padding-right: 10px ;
+    max-width: 350px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
+
 .cryptoinfo code {
-    font-size: small ;
-    overflow-wrap: break-word ;
+    font-size: small;
+    overflow-wrap: break-word;
 }
+
 ul {
-    margin-left: 20px ;
-    margin-right: 20px ;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 li img, p img {
-    max-height: 1em ;
-    max-width: 1em ;
+    max-height: 1em;
+    max-width: 1em;
 }
 
 h1,h2,h3,h4 {
-    font-family: "EB Garamond", Garamond, Serif ;
-    text-align: center ;
-    text-shadow: 1px 1px var(--emph) ;
-    font-weight: normal ;
+    font-family: "EB Garamond", Garamond, Serif;
+    text-align: center;
+    text-shadow: 1px 1px var(--emph);
+    font-weight: normal;
 }
 
-h1 { color: lightblue ; }
+h1 { color: lightblue; }
 
-h2 { color: goldenrod ; }
+h2 { color: goldenrod; }
 
-h3 { color: tomato ; }
+h3 { color: tomato; }
 
-h4 { color: deepskyblue ; }
+h4 { color: deepskyblue; }
 
-a { color: turquoise ; text-decoration: none ;}
+a { color: turquoise; text-decoration: none; }
 
-a:hover { color: greenyellow ;}
+a:hover { color: greenyellow; }
 
-dt { font-weight: bold ; color: lightgray ; }
+dt { font-weight: bold; color: lightgray; }
 
 .disappear {
-    display: none ;
+    display: none;
 }
 
 /* This should be genwidth + (navwidth*2) + padding */
 @media (min-width: 1200px) {
     nav {
-        float: left ;
-        width: 175px ;
-        position: fixed ;
-        text-align: left ;
-        font-size: large ;
+        float: left;
+        width: 175px;
+        position: fixed;
+        text-align: left;
+        font-size: large;
     }
     nav::before {
-        content: "Links" ;
-        text-align: center ;
-        display: block ;
-        font-size: large ;
-        color: violet ;
-        text-decoration: underline ;
-        margin-top: .5em ;
+        content: "Links";
+        text-align: center;
+        display: block;
+        font-size: large;
+        color: violet;
+        text-decoration: underline;
+        margin-top: .5em;
     }
     nav li {
-        display: block ;
-        text-align: center ;
-        margin: .5em auto ;
+        display: block;
+        text-align: center;
+        margin: .5em auto;
     }
-
 }
 
 .resright, .resmid {
-    max-height: 300px ;
-    max-width: 90% ;
-    margin: auto ;
-    display: block ;
+    max-height: 300px;
+    max-width: 90%;
+    margin: auto;
+    display: block;
 }
 
 @media (min-width: 55em) {
 
     .resright, .disappear {
-        display: block ;
+        display: block;
         float: right;
-        padding: 20px ;
-        clear: both ;
-        max-height: 300px ;
-        max-width: 300px ;
+        padding: 20px;
+        clear: both;
+        max-height: 300px;
+        max-width: 300px;
     }
 
     .resmid {
-        max-height: 300px ;
-        max-width: 300px ;
+        max-height: 300px;
+        max-width: 300px;
     }
 
     main {
-        max-width: var(--genwidth) ;
+        max-width: var(--genwidth);
     }
 
     .column {
         float: left;
-        width: 50% ;
+        width: 50%;
     }
-
 }
+
 .resmid {
-    margin: auto ;
-    display: block ;
+    margin: auto;
+    display: block;
 }
 
 .text-left {
     text-align: left;
 }
+
 .text-right {
     text-align: right;
 }
+
 .text-center {
     text-align: center;
 }
+
 .text-justify {
     text-align: justify;
 }
