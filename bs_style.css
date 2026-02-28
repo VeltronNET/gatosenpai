@@ -1,3 +1,5 @@
+p { text-align: center ;}
+
 /* Defaults */
 body {
 *, a, button, body {cursor:url('http://www.veltron.net/images/cursor.png'), auto!important;}
