@@ -76,7 +76,6 @@ footer a:hover {
 /* Style the buttons to look like transparent, modern text-based buttons */
 .button {
   background: rgba(0, 0, 0, 0.5) !important; /* Half-transparent black background */
-  border: 2px solid rgba(255, 255, 255, 0.5) !important; /* Light border */
   color: #fff; /* White text */
   font-size: 1.5rem; /* Larger font size for better visibility */
   padding: 15px 30px; /* More padding for bigger buttons */
@@ -120,7 +119,9 @@ footer a:hover {
 
 .button-container .button {
   background-color: #007bff;
+  color: white;
   border: none;
+  padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
   display: flex;
